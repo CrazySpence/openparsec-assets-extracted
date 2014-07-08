@@ -1,0 +1,21 @@
+
+write loading power-up generation
+
+load texture eg01_01a file eg01_01a.3df
+load texture eg01_02a file eg01_02a.3df
+load texture eg01_03a file eg01_03a.3df
+load texture eg01_04a file eg01_04a.3df
+load texture eg01_05a file eg01_05a.3df
+load texture eg01_06a file eg01_06a.3df
+load texture eg01_07a file eg01_07a.3df
+load texture eg01_08a file eg01_08a.3df
+load texture eg01_09a file eg01_09a.3df
+load texture eg01_10a file eg01_10a.3df
+load texture eg01_11a file eg01_11a.3df
+load texture eg01_12a file eg01_12a.3df
+load texture eg01_13a file eg01_13a.3df
+load texture eg01_14a file eg01_14a.3df
+load texture eg01_15a file eg01_15a.3df
+
+;eof
+

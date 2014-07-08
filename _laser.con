@@ -1,0 +1,21 @@
+
+write loading laser
+
+.aux37 1
+
+load texture phaser1a    file phaser1a.3df
+load texture phaser1b    file phaser1b.3df
+load texture phaser2a    file phaser2a.3df
+load texture phaser2b    file phaser2b.3df
+load texture phaser3a    file phaser3a.3df
+load texture phaser3b    file phaser3b.3df
+
+load object  (laser_1a)  file phaser1.bin  flags nodefaults shader (iter_texonly iter_specularadd flag_nodepthwrite)
+load object  (laser_1b)  file phaser1.bin  flags nodefaults shader (iter_texonly iter_specularadd flag_nodepthwrite)
+load object  (laser_2)   file phaser2.bin  flags nodefaults shader (iter_texonly iter_specularadd flag_nodepthwrite)
+load object  (laser_3)   file phaser3.bin  flags nodefaults shader (iter_texonly iter_specularadd flag_nodepthwrite)
+
+.aux37 0
+
+;eof
+

@@ -1,0 +1,12 @@
+
+write loading spacecraft viewer
+
+load texture scv00 file scv00.3df
+load texture scv01 file scv01.3df
+load texture scv02 file scv02.3df
+load texture scv10 file scv10.3df
+load texture scv11 file scv11.3df
+load texture scv12 file scv12.3df
+
+;eof
+

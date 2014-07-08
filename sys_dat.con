@@ -1,0 +1,50 @@
+
+; load default texture
+load texture texinval file texinval.3df
+
+; load data
+_plight
+
+; particle definitions must be available before ships are loaded
+; for classpart command
+.aux102 1
+_posdef
+
+_f1_2
+_f2_2
+_f3_2
+_f4_2
+_f5_2
+_f6_2
+_f7_2
+_f8_2
+_laser
+_missls
+_exgen
+_powups
+_gate
+_strgate
+_panback
+_eff1
+_eff2
+_eff3
+_eff4
+_eff5
+_lightn
+_smoke
+_vapor
+_swave
+_expl
+_butts2
+_logani2
+_scv
+_cockpit
+_icons
+;_cloud
+_font
+_telep
+_props
+
+
+;eof
+

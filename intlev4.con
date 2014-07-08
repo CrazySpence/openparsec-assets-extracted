@@ -1,0 +1,30 @@
+; parsec level script -----------------------------------
+; automatically generated on Fri Sep 07 19:35:10 2001
+;
+summon class teleporter origin ( 64.619423 -42.391590 161.131546 ) space ww
+; properties of object 299 (class teleporter id 44, type teleporter)
+propo 0.exit_delta_x -1000.000000
+propo 0.exit_delta_y 400.000000
+propo 0.exit_delta_z 2000.000000
+propo 0.exit_rot_phi 90.000000
+propo 0.exit_rot_theta 120.000000
+propo 0.actoffset 5.000000
+propo 0.active 1
+propo 0.tex_name_interior "tp_int.3df"
+propo 0.tex_u_var1 0.050000
+propo 0.tex_v_var1 0.050000
+propo 0.tex_u_var2 0.030000
+propo 0.tex_v_var2 0.030000
+propo 0.secly 1
+propo 0.start_tex_alpha 128
+propo 0.act_cone_angle 30.000000
+propo 0.tslerp 1
+propo 0.tlerp 2
+propo 0.tunnel_ts1 5000.000000
+propo 0.tunnel_ts2 5000.000000
+propo 0.tunnel_spline_cords 100
+propo 0.tunnel_anim_speed 2.000000
+propo 0.tunnel_spline 0
+propo 0.tunnel_tex_alpha 255
+propo 0.tunnel_len 40
+;----------------------------------------------------

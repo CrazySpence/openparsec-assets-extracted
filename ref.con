@@ -1,0 +1,192 @@
+
+; load data
+.aux95 1
+.aux98 1
+sys_dat
+do_creg
+.aux105 1
+_sound
+
+; use extinfo for spreadfire particles
+.aux49 1
+
+; use alternate sphere particles (animated)
+.aux51 1
+.aux52 1
+.aux53 1
+.aux54 1
+
+; hud displays
+.aux10 1
+.aux11 1
+.aux12 2
+.aux14 1
+
+; no color buffer clear
+.aux48 1
+
+; no screenshot message
+;.aux57 1
+
+; automatic connect
+;.aux67 1
+
+; disable local stargate
+.aux69 1
+
+; particle explosion
+.aux70 1
+
+; advanced player interpolation
+.aux84 2
+
+; enable rc sections
+.aux85 1
+.aux86 1
+.aux87 1
+
+; shockwave
+.aux94 1
+
+; thrust objects
+.aux107 1
+
+; autostart background player
+.aux109 1
+
+; new player list window
+.aux110 1
+
+; killed ship extras
+.aux112 1
+
+; direct cluster rendering
+.aux114 1
+
+; draw cockpit
+.aux117 1
+.aux118 1
+.aux119 1
+.aux120 1
+.aux121 1
+.aux123 1
+
+; stargates on radar
+.aux125 1
+
+; smooth ship control
+.aux128 1
+
+; extended target caret
+.aux129 1
+
+; show ping in server list
+.aux130 1
+
+; no free camera
+.aux134 0
+
+; missile trails
+.aux132 1
+.aux140 2
+
+; no menu demo
+.aux143 1
+
+; misc stuff
+.aux138 1
+.aux139 1
+.aux141 1
+.aux142 1
+.aux163 1
+
+; enable game status window
+.aux151 1
+
+; save aux arrays, name, refframe freq,
+; and lighting config on demo replay
+.aux157 1
+.aux159 1
+.aux181 1
+.aux182 1
+
+; reset kills on game end
+.aux162 1
+
+; enable mouse
+.aux165 1
+
+; enable lighting
+.aux171 1
+
+; allow texture evict
+.aux178 1
+
+; enable multiple texture units
+.aux183 1
+
+; packed tga screenshots
+.auxd20 1
+.auxd21 0
+
+; four messages
+.auxd25 4
+
+; red nebula
+.auxd30 3
+
+; cockpit swaying and rattling
+.aux126 2
+.aux127 1
+gfx.swaying period (1100 700)
+
+cockpit.scale 2
+
+; medal times
+.auxd31 600
+.auxd32 1800
+
+; smooth ship factor
+.auxd29 400
+
+; teleporters on rader
+.aux195 1
+
+; level sync
+.aux194 0
+
+; texture precaching
+.aux193 1
+
+; default console geometry
+con.winx 2
+con.winy 2
+con.width 71
+con.height 40
+
+; mouse control defaults
+inp.mouse_sensitivity 1000
+inp.mouse_drift 30
+inp.mouse_invert_yaxis 1
+
+aud.conf music sfx
+
+net.packetrecording 1
+
+bind akc_1 inp.weaponsel 0
+bind akc_2 inp.weaponsel 1
+bind akc_3 inp.weaponsel 2
+bind akc_4 inp.weaponsel 3
+bind akc_5 inp.weaponsel 4
+bind akc_6 inp.weaponsel 5
+bind akc_7 inp.weaponsel 6
+bind akc_8 inp.weaponsel 7
+
+bind akc_x emp
+bind akc_c quicksay
+
+bind akc_numpadplus cockpit.scale --1
+bind akc_numpadminus cockpit.scale ++1
+
+;eof
+

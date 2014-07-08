@@ -1,0 +1,94 @@
+
+write loading samples
+
+load sample (cursor movement)           file menu1-r.wav      volume 100
+load sample (option selected)           file piepsk-r.wav     volume 200
+load sample (ship destroyed)            file shipd-r.wav      volume  90
+load sample (new player)                file playj-r.wav
+load sample (low energy)                file lowe-r.wav       volume 150
+load sample (target locked)             file targl-r.wav      volume  90
+load sample (tracker beep)              file tbeep-r.wav      volume  20
+load sample (explosion)                 file expl3-r.wav      volume 255
+load sample (laser level 1)             file slas7.wav        volume 150
+load sample (dumb missile)              file hrock-r.wav      volume 180
+load sample (guided missile)            file frock-r.wav      volume 180
+load sample (get energy)                file energb-r.wav     volume  60
+load sample (drop mine)                 file sel2-r.wav
+load sample (laser level 2)             file slas7_2.wav      volume 200
+load sample (laser level 3)             file slas7_3.wav      volume 200
+load sample (lightning beam)            file blitz2-r.wav     volume 190
+load sample (mine hit)                  file mineh-r.wav
+load sample (mine collected)            file proxm-r.wav      volume  90
+load sample (dazzling collected)        file goth-r.wav       volume 110
+load sample (thief collected)           file gotl-r.wav       volume 105
+load sample (invul collected)           file invul-r.wav      volume  90
+load sample (dmiss collected)           file dumb-r.wav       volume 100
+load sample (gmiss collected)           file guided-r.wav     volume  70
+load sample (maxed out)                 file _ka-r.wav        volume 100
+load sample (damage repaired)           file damrep-r.wav
+load sample (buttonslided)              file select2n.wav     volume 100
+load sample (scv in)                    file in1-r.wav        volume  80
+load sample (scv out)                   file exit-r.wav       volume  80
+load sample (back2)                     file back4-r.wav      volume 105
+load sample (enemy hit)                 file enehit-r.wav     volume  80
+load sample (select laser1)             file slaser-r.wav     volume  75
+load sample (select laser2)             file helix-r.wav      volume  60
+load sample (select laser3)             file lightn-r.wav     volume  90
+load sample (select laser4)             file photoc22.wav     volume  90
+load sample (select missile1)           file dumb-r.wav       volume  95
+load sample (select missile2)           file guided-r.wav     volume  60
+load sample (select missile3)           file proxm-r.wav      volume  80
+load sample (select missile4)           file swmiss22.wav     volume  80
+load sample (switch gun)                file weaps-r.wav      volume  80
+load sample (switch missile)            file weaps-r.wav      volume  80
+load sample (thrust)                    file thrus2-r.wav     volume  85
+load sample (slidethrust)               file ts22khz.wav      volume 160
+load sample (incoming)                  file alarm-r.wav
+load sample (booting)                   file sysch-r.wav      volume 120
+load sample (playershield hit)          file iamhit-r.wav     volume 200
+load sample (low shields)               file lows-r.wav       volume 200
+load sample (one kill left)             file 1killl22.wav     volume 200
+load sample (two kills left)            file 2killl22.wav     volume 200
+load sample (three kills left)          file 3killl22.wav     volume 200
+load sample (jim afraid 1)              file 22afraid.wav     volume 255
+load sample (jim afraid 2)              file 22pants.wav      volume 255
+load sample (jim angry 1)               file 22angry.wav      volume 255
+load sample (jim angry 2)               file 22bother.wav     volume 255
+load sample (jim weapon 1)              file 22bigger.wav     volume 255
+load sample (jim weapon 2)              file 22damage.wav     volume 255
+load sample (jim weapon 3)              file 22sucks.wav      volume 255
+load sample (jim weapon 4)              file 22sunsha.wav     volume 255
+load sample (jim killed 1)              file 22finish.wav     volume 255
+load sample (jim killed 2)              file 22hell.wav       volume 255
+load sample (jim eat this 1)            file 22eat.wav        volume 255
+load sample (jim eat this 2)            file 22eat.wav        volume 255
+load sample (jim energy)                file 22energy.wav     volume 255
+load sample (jim bored 1)               file 22snova.wav      volume 255
+load sample (jim bored 2)               file 22snova.wav      volume 255
+load sample (helix)                     file helix2-r.wav     volume 200
+load sample (afterb collected)          file afterb22.wav     volume 255
+load sample (decoy collected)           file holod22.wav      volume 255
+load sample (invis collected)           file invis22.wav      volume 255
+load sample (laser upgrade collected)   file lasup22.wav      volume 255
+load sample (photon cannon collected)   file photoc22.wav     volume 255
+load sample (swarm missiles collected)  file swmiss22.wav     volume 222
+load sample (count1)                    file 1_22.wav         volume 255
+load sample (count2)                    file 2_22.wav         volume 255
+load sample (count3)                    file 3_22.wav         volume 255
+load sample (count4)                    file 4_22.wav         volume 255
+load sample (count5)                    file 5_22.wav         volume 255
+load sample (skill amazing)             file amaz22.wav       volume 255
+load sample (skill brilliant)           file brilli22.wav     volume 255
+load sample (afterburner activate)      file aburn.wav        volume 255
+load sample (photon loading)            file pc1.wav          volume 255
+load sample (photon firing)             file pc2.wav          volume 255
+load sample (swarm missiles)            file 22sm1.wav        volume 255
+load sample (you did it)                file 22ydi.wav        volume 255
+load sample (you have lost)             file 22yhl.wav        volume 255
+load sample (mine detector)             file mineo2.wav       volume 255
+load sample (emp1)                      file 22emp1.wav       volume 255
+load sample (emp2)                      file 22emp2.wav       volume 255
+load sample (emp3)                      file 22emp3.wav       volume 255
+load sample (teleporter)                file 22tele1.wav      volume 255
+;eof
+

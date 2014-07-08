@@ -1,0 +1,33 @@
+
+write loading smoke particles
+
+.aux19 1
+
+load texture smoke001 format a8 file smoke001.3df
+load texture smoke002 format a8 file smoke002.3df
+load texture smoke003 format a8 file smoke003.3df
+load texture smoke004 format a8 file smoke004.3df
+load texture smoke005 format a8 file smoke005.3df
+load texture smoke006 format a8 file smoke006.3df
+load texture smoke007 format a8 file smoke007.3df
+load texture smoke008 format a8 file smoke008.3df
+load texture smoke009 format a8 file smoke009.3df
+load texture smoke010 format a8 file smoke010.3df
+load texture smoke011 format a8 file smoke011.3df
+load texture smoke012 format a8 file smoke012.3df
+load texture smoke013 format a8 file smoke013.3df
+load texture smoke014 format a8 file smoke014.3df
+load texture smoke015 format a8 file smoke015.3df
+load texture smoke016 format a8 file smoke016.3df
+load texture smoke017 format a8 file smoke017.3df
+load texture smoke018 format a8 file smoke018.3df
+load texture smoke019 format a8 file smoke019.3df
+load texture smoke020 format a8 file smoke020.3df
+load texture smoke021 format a8 file smoke021.3df
+load texture smoke022 format a8 file smoke022.3df
+load texture smoke023 format a8 file smoke023.3df
+load texture smoke024 format a8 file smoke024.3df
+load texture smoke025 format a8 file smoke025.3df
+
+;eof
+

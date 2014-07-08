@@ -1,0 +1,37 @@
+
+write loading explosions
+
+load texture expl_001 file expl_001.3df
+load texture expl_002 file expl_002.3df
+load texture expl_003 file expl_003.3df
+load texture expl_004 file expl_004.3df
+load texture expl_005 file expl_005.3df
+load texture expl_006 file expl_006.3df
+load texture expl_007 file expl_007.3df
+load texture expl_008 file expl_008.3df
+load texture expl_009 file expl_009.3df
+load texture expl_010 file expl_010.3df
+load texture expl_011 file expl_011.3df
+load texture expl_012 file expl_012.3df
+load texture expl_013 file expl_013.3df
+load texture expl_014 file expl_014.3df
+load texture expl_015 file expl_015.3df
+load texture expl_016 file expl_016.3df
+load texture expl_017 file expl_017.3df
+load texture expl_018 file expl_018.3df
+load texture expl_019 file expl_019.3df
+load texture expl_020 file expl_020.3df
+load texture expl_021 file expl_021.3df
+load texture expl_022 file expl_022.3df
+load texture expl_023 file expl_023.3df
+load texture expl_024 file expl_024.3df
+load texture expl_025 file expl_025.3df
+load texture expl_026 file expl_026.3df
+load texture expl_027 file expl_027.3df
+load texture expl_028 file expl_028.3df
+load texture expl_029 file expl_029.3df
+load texture expl_030 file expl_030.3df
+load texture expl_031 file expl_031.3df
+
+;eof
+

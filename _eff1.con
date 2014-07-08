@@ -1,0 +1,21 @@
+
+write loading particle flare 01
+
+load texture eff10001 file eff1_001.3df
+;load texture eff10003 file eff1_003.3df
+;load texture eff10005 file eff1_005.3df
+;load texture eff10007 file eff1_007.3df
+;load texture eff10009 file eff1_009.3df
+;load texture eff10011 file eff1_011.3df
+;load texture eff10013 file eff1_013.3df
+;load texture eff10015 file eff1_015.3df
+;load texture eff10017 file eff1_017.3df
+;load texture eff10019 file eff1_019.3df
+;load texture eff10021 file eff1_021.3df
+;load texture eff10023 file eff1_023.3df
+;load texture eff10025 file eff1_025.3df
+;load texture eff10027 file eff1_027.3df
+;load texture eff10029 file eff1_029.3df
+
+;eof
+

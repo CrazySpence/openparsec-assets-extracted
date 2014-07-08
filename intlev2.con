@@ -1,0 +1,55 @@
+; parsec level script -----------------------------------
+; automatically generated on Sun Aug 26 05:43:30 2001
+
+summon class teleporter origin ( -92.433655 564.370667 2084.578125 ) space ww
+; properties of object 152 (class teleporter id 40, type teleporter)
+propo 0.exit_delta_x 0.000000
+propo 0.exit_delta_y 400.000000
+propo 0.exit_delta_z 1000.000000
+propo 0.exit_rot_phi 45.000000
+propo 0.exit_rot_theta 30.000000
+propo 0.actoffset 5.000000
+propo 0.active 1
+propo 0.tex_name_interior tp_int.3df
+propo 0.tex_u_var1 0.050000
+propo 0.tex_v_var1 0.050000
+propo 0.tex_u_var2 0.030000
+propo 0.tex_v_var2 0.030000
+propo 0.secly 1
+propo 0.start_tex_alpha 128
+propo 0.act_cone_angle 30.000000
+propo 0.tslerp 1
+propo 0.tlerp 2
+propo 0.tunnel_ts1 900.000000
+propo 0.tunnel_ts2 3000.000000
+propo 0.tunnel_spline_cords 50
+propo 0.tunnel_anim_speed 2.000000
+propo 0.tunnel_spline 0
+propo 0.tunnel_tex_alpha 255
+propo 0.tunnel_len 20
+summon class teleporter origin ( 0.000000 0.000000 176.666672 ) space ww
+; properties of object 36 (class teleporter id 40, type teleporter)
+propo 0.exit_delta_x 300.000000
+propo 0.exit_delta_y 500.000000
+propo 0.exit_delta_z 1200.000000
+propo 0.exit_rot_phi 30.000000
+propo 0.exit_rot_theta 45.000000
+propo 0.actoffset 5.000000
+propo 0.active 1
+propo 0.tex_name_interior tp_int.3df
+propo 0.tex_u_var1 0.050000
+propo 0.tex_v_var1 0.050000
+propo 0.tex_u_var2 0.030000
+propo 0.tex_v_var2 0.030000
+propo 0.secly 1
+propo 0.start_tex_alpha 128
+propo 0.act_cone_angle 30.000000
+propo 0.tslerp 1
+propo 0.tlerp 2
+propo 0.tunnel_ts1 300.000000
+propo 0.tunnel_ts2 2000.000000
+propo 0.tunnel_spline_cords 30
+propo 0.tunnel_anim_speed 2.000000
+propo 0.tunnel_spline 0
+propo 0.tunnel_tex_alpha 128
+propo 0.tunnel_len 10

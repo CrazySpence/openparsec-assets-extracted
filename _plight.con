@@ -1,0 +1,29 @@
+
+write loading position flares
+
+load texture pl_a000 file pl_a003.3df
+load texture pl_a001 file pl_a004.3df
+load texture pl_a002 file pl_a005.3df
+load texture pl_a003 file pl_a006.3df
+
+load texture pl_f000 file pl_f003.3df
+load texture pl_f001 file pl_f004.3df
+load texture pl_f002 file pl_f005.3df
+load texture pl_f003 file pl_a006.3df
+
+load texture pl_h000 file pl_h003.3df
+load texture pl_h001 file pl_h004.3df
+load texture pl_h002 file pl_h005.3df
+load texture pl_h003 file pl_a006.3df
+
+load texture jp000 file jp001.3df
+load texture jp001 file jp002.3df
+load texture jp002 file jp003.3df
+load texture jp003 file pl_a006.3df
+
+load texture helix001  file helix01.3df
+load texture photon001 file photon01.3df
+load texture swarm001  file swarm001.3df
+
+;eof
+

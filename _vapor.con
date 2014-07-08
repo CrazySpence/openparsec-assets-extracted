@@ -1,0 +1,7 @@
+
+write loading vaportrail
+
+load texture (rockettr.3df) format a8 file rockettr.3df
+
+;eof
+

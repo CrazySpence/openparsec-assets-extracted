@@ -1,0 +1,39 @@
+
+write loading stargate animation
+
+load texture gate_000 file gate_000.3df
+load texture gate_001 file gate_001.3df
+load texture gate_003 file gate_003.3df
+load texture gate_005 file gate_005.3df
+load texture gate_007 file gate_007.3df
+load texture gate_009 file gate_009.3df
+load texture gate_011 file gate_011.3df
+load texture gate_013 file gate_013.3df
+load texture gate_015 file gate_015.3df
+load texture gate_017 file gate_017.3df
+load texture gate_019 file gate_019.3df
+load texture gate_021 file gate_021.3df
+load texture gate_023 file gate_023.3df
+load texture gate_025 file gate_025.3df
+load texture gate_027 file gate_027.3df
+load texture gate_029 file gate_029.3df
+load texture gate_031 file gate_031.3df
+load texture gate_033 file gate_033.3df
+load texture gate_035 file gate_035.3df
+load texture gate_037 file gate_037.3df
+load texture gate_039 file gate_039.3df
+load texture gate_041 file gate_041.3df
+load texture gate_043 file gate_043.3df
+load texture gate_045 file gate_045.3df
+load texture gate_047 file gate_047.3df
+load texture gate_049 file gate_049.3df
+load texture gate_051 file gate_051.3df
+load texture gate_053 file gate_053.3df
+load texture gate_055 file gate_055.3df
+load texture gate_057 file gate_057.3df
+load texture gate_058 file gate_058.3df
+load texture gate_059 file gate_059.3df
+load texture gate_060 file gate_060.3df
+
+;eof
+

@@ -1,0 +1,38 @@
+
+write loading teleporter
+
+;load texture tp_01a.3df file tp_01a.3df
+;load texture tp_02a.3df file tp_02a.3df
+;load texture tp_03a.3df file tp_03a.3df
+;load texture tp_int.3df file tp_int.3df
+;load texture tp_tun.3df file tp_tun.3df
+;load texture tp_int1.3df file tp_int1.3df
+;load texture tp_01a.3df file tp_01a.tga format (map_width 256 map_height 256 texfmt_gr rgb565)
+;load texture tp_02a.3df file tp_02a.tga format (map_width 256 map_height 128 texfmt_gr rgb565)
+;load texture tp_03a.3df file tp_03a.tga format (map_width 128 map_height 256 texfmt_gr rgb565)
+;load texture tp_int.3df file tp_int.tga format (map_width 256 map_height 256 texfmt_gr rgb565)
+;load texture tp_tun.3df file tp_tun.tga format (map_width 256 map_height 256 texfmt_gr rgb565)
+;load texture tp_int1.3df file tp_int1.tga format (map_width 256 map_height 256 texfmt_gr rgb565)
+load texture tp_01a.3df file tp_01a.jpg format (map_width 256 map_height 256 texfmt_gr rgb565)
+load texture tp_02a.3df file tp_02a.jpg format (map_width 256 map_height 128 texfmt_gr rgb565)
+load texture tp_03a.3df file tp_03a.jpg format (map_width 128 map_height 256 texfmt_gr rgb565)
+load texture tp_int.3df file tp_int.jpg format (map_width 256 map_height 256 texfmt_gr rgb565)
+load texture tp_tun.3df file tp_tun.jpg format (map_width 256 map_height 256 texfmt_gr rgb565)
+load texture tp_int1.3df file tp_int1.jpg format (map_width 256 map_height 256 texfmt_gr rgb565)
+
+load object (teleporter) type teleporter file telep4.od2
+load object (telep_exit) type geometry   file telep4.od2
+
+propc (teleporter).exit_rot_phi 45
+propc (teleporter).exit_delta_y 400
+propc (teleporter).tunnel_ts2 3000
+propc (teleporter).exit_rot_theta 30
+propc (teleporter).tunnel_ts1 900
+propc (teleporter).exit_delta_z 1000
+propc (teleporter).tunnel_tex_alpha 255
+propc (teleporter).tunnel_spline_cords 100
+propc (teleporter).tunnel_len 40
+propc (teleporter).act_cone_angle 60
+propc (teleporter).actoffset 10
+
+;eof

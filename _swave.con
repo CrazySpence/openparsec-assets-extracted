@@ -1,0 +1,21 @@
+
+write loading shockwave
+
+load texture swv_001 file swv_001.3df
+load texture swv_003 file swv_003.3df
+load texture swv_005 file swv_005.3df
+load texture swv_007 file swv_007.3df
+load texture swv_009 file swv_009.3df
+load texture swv_011 file swv_011.3df
+load texture swv_013 file swv_013.3df
+load texture swv_015 file swv_015.3df
+load texture swv_017 file swv_017.3df
+load texture swv_019 file swv_019.3df
+load texture swv_021 file swv_021.3df
+load texture swv_023 file swv_023.3df
+load texture swv_025 file swv_025.3df
+load texture swv_027 file swv_027.3df
+load texture swv_029 file swv_029.3df
+
+;eof
+

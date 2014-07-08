@@ -1,0 +1,21 @@
+
+write loading particle flare 03
+
+;load texture eff30001 file eff3_001.3df
+;load texture eff30003 file eff3_003.3df
+;load texture eff30005 file eff3_005.3df
+;load texture eff30007 file eff3_007.3df
+;load texture eff30009 file eff3_009.3df
+;load texture eff30011 file eff3_011.3df
+;load texture eff30013 file eff3_013.3df
+load texture eff30015 file eff3_015.3df
+;load texture eff30017 file eff3_017.3df
+load texture eff30019 file eff3_019.3df
+;load texture eff30021 file eff3_021.3df
+;load texture eff30023 file eff3_023.3df
+;load texture eff30025 file eff3_025.3df
+;load texture eff30027 file eff3_027.3df
+load texture eff30029 file eff3_029.3df
+
+;eof
+

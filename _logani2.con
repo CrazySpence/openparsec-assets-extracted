@@ -1,0 +1,36 @@
+
+write loading logo animation
+
+load texture logani00 file logani00.3df
+load texture logani01 file logani02.3df
+load texture logani02 file logani04.3df
+load texture logani03 file logani06.3df
+load texture logani04 file logani08.3df
+load texture logani05 file logani10.3df
+load texture logani06 file logani12.3df
+load texture logani07 file logani14.3df
+load texture logani08 file logani16.3df
+load texture logani09 file logani18.3df
+load texture logani10 file logani20.3df
+load texture logani11 file logani22.3df
+load texture logani12 file logani24.3df
+load texture logani13 file logani26.3df
+load texture logani14 file logani28.3df
+load texture logani15 file logani30.3df
+load texture logani16 file logani32.3df
+load texture logani17 file logani34.3df
+load texture logani18 file logani36.3df
+load texture logani19 file logani38.3df
+load texture logani20 file logani40.3df
+load texture logani21 file logani42.3df
+load texture logani22 file logani44.3df
+load texture logani23 file logani46.3df
+load texture logani24 file logani48.3df
+load texture logani25 file logani50.3df
+load texture logani26 file logani52.3df
+load texture logani27 file logani54.3df
+load texture logani28 file logani56.3df
+load texture logani29 file logani58.3df
+
+;eof
+

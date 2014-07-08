@@ -1,0 +1,21 @@
+
+write loading particle flare 05
+
+load texture eff50001 file eff5_001.3df
+;load texture eff50003 file eff5_003.3df
+;load texture eff50005 file eff5_005.3df
+;load texture eff50007 file eff5_007.3df
+;load texture eff50009 file eff5_009.3df
+;load texture eff50011 file eff5_011.3df
+;load texture eff50013 file eff5_013.3df
+;load texture eff50015 file eff5_015.3df
+;load texture eff50017 file eff5_017.3df
+;load texture eff50019 file eff5_019.3df
+;load texture eff50021 file eff5_021.3df
+;load texture eff50023 file eff5_023.3df
+;load texture eff50025 file eff5_025.3df
+;load texture eff50027 file eff5_027.3df
+;load texture eff50029 file eff5_029.3df
+
+;eof
+

@@ -1,0 +1,71 @@
+
+write loading weapon icons
+
+load texture a_after  file a_after.3df
+load texture a_helix  file a_helix.3df
+load texture a_invis  file a_invis.3df
+load texture a_invul  file a_invul.3df
+load texture a_lc1    file a_lc1.3df
+load texture a_lc2    file a_lc2.3df
+load texture a_lc3    file a_lc3.3df
+load texture a_light  file a_light.3df
+load texture a_mine   file a_mine.3df
+load texture a_missl1 file a_missl1.3df
+load texture a_missl2 file a_missl2.3df
+
+;load texture a_holo  file a_holo.3df
+load texture a_photon file a_photon.3df
+load texture a_missl3 file a_missl3.3df
+load texture a_emp1   file a_emp1.3df
+load texture a_emp2   file a_emp2.3df
+load texture a_emp3   file a_emp3.3df
+
+load texture n_after  file n_after.3df
+load texture n_helix  file n_helix.3df
+load texture n_invis  file n_invis.3df
+load texture n_invul  file n_invul.3df
+load texture n_lc1    file n_lc1.3df
+load texture n_lc2    file n_lc2.3df
+load texture n_lc3    file n_lc3.3df
+load texture n_light  file n_light.3df
+load texture n_mine   file n_mine.3df
+load texture n_missl1 file n_missl1.3df
+load texture n_missl2 file n_missl2.3df
+
+;load texture n_holo  file n_holo.3df
+load texture n_photon file n_photon.3df
+load texture n_missl3 file n_missl3.3df
+load texture n_emp   file n_emp.3df
+
+load texture w_lc1    file w_lc1.3df
+load texture w_lc2    file w_lc2.3df
+load texture w_lc3    file w_lc3.3df
+load texture w_light  file w_light.3df
+load texture w_helix  file w_helix.3df
+load texture w_photon file w_photon.3df
+load texture w_missl1 file w_missl1.3df
+load texture w_missl2 file w_missl2.3df
+load texture w_swarm  file w_swarm.3df
+load texture w_mine   file w_mine.3df
+
+
+weaponreg  slot 0   icon_avail (a_lc1 a_lc2 a_lc3) icon_unavail n_lc1     pic (w_lc1 w_lc3 w_lc2)
+weaponreg  slot 1   icon_avail a_helix             icon_unavail n_helix   pic w_helix
+weaponreg  slot 2   icon_avail a_light             icon_unavail n_light   pic w_light
+weaponreg  slot 3   icon_avail a_photon            icon_unavail n_photon  pic w_photon
+
+weaponreg  slot 4   icon_avail a_missl1            icon_unavail n_missl1  pic w_missl1
+weaponreg  slot 5   icon_avail a_missl2            icon_unavail n_missl2  pic w_missl2
+weaponreg  slot 6   icon_avail a_missl3            icon_unavail n_missl3  pic w_swarm
+weaponreg  slot 7   icon_avail a_mine              icon_unavail n_mine    pic w_mine
+
+weaponreg  slot 8   icon_avail (a_emp1 a_emp2 a_emp3) icon_unavail n_emp
+weaponreg  slot 9   icon_avail a_invis             icon_unavail n_invis
+weaponreg  slot 10  icon_avail a_invul             icon_unavail n_invul
+weaponreg  slot 11  icon_avail a_after             icon_unavail n_after
+
+;weaponreg  slot 11  icon_avail a_holo              icon_unavail n_holo
+
+
+;eof
+

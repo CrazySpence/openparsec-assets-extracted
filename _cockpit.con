@@ -1,0 +1,40 @@
+
+write loading cockpit
+
+load texture cp_d1    file cp_d1.3df
+load texture cp_d1s   file cp_d1s.3df
+load texture cp_d2    file cp_d2.3df
+load texture cp_d2s   file cp_d2s.3df
+load texture cp_w1    file cp_w1.3df
+load texture cp_w1s   file cp_w1s.3df
+load texture cp_w2    file cp_w2.3df
+load texture cp_w2e   file cp_w2e.3df
+load texture cp_w2w   file cp_w2w.3df
+load texture cp_r1    file cp_r1.3df
+load texture cp_r1s   file cp_r1s.3df
+load texture cp_r1e   file cp_r1e.3df
+load texture cp_m1    file cp_m1.3df
+load texture cp_m2    file cp_m2.3df
+
+load texture cp_b1    file cp_b1.3df
+load texture cp_b1e   file cp_b1e.3df
+load texture cp_b2    file cp_b2.3df
+load texture cp_b2e   file cp_b2e.3df
+load texture cp_b3    file cp_b3.3df
+load texture cp_b3e   file cp_b3e.3df
+load texture cp_b4    file cp_b4.3df
+load texture cp_b4e   file cp_b4e.3df
+
+load texture cross    file cross.3df
+load texture cross2   file cross2.3df
+load texture incoming file incoming.3df
+
+load texture corner1  file corner1.3df
+load texture corner2  file corner2.3df
+load texture corner3  file corner3.3df
+load texture corner4  file corner4.3df
+
+load texture arrow file arrow.tga format (map_width 32 map_height 32 texfmt_gr rgb565)
+
+;eof
+

@@ -1,0 +1,13 @@
+
+;---------------------
+; parsec boot script
+;---------------------
+
+; ref state and data
+ref
+
+; user init script
+init
+
+;eof
+

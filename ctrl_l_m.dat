@@ -1,0 +1,117 @@
+
+#objects
+
+1	"firebird"   *Ship_1*        extra1.odt
+2	"laser_1a"   *Laser_1*       extra1.odt
+3	"laser_1b"   *Laser_1*       extra1.odt
+4	"miss_dumb"  *Missile_1*     extra1.odt
+5	"miss_guide" *Missile_4*     extra1.odt
+6	"miss_swarm" *Missile_2*     extra1.odt
+7	"ex_energy"  *Extra_1*       extra1.odt
+8	"ex_dumb"    *Extra_2*       extra1.odt
+9	"cormoran"   *Ship_2*        extra1.odt
+10	"bluespire"  *Ship_1*        extra1.odt
+11	"ex_guide"   *Extra_2*       extra1.odt
+12	"ex_helix"   *Extra_3*       extra1.odt
+13	"ex_light"   *Extra_3*       extra1.odt
+14	"ex_mine"    *Extra_2*       extra1.odt
+15	"mine_proxy" *Mine_1*        extra1.odt
+16	"laser_2"    *Laser_2*       extra1.odt
+17	"laser_3"    *Laser_3*       extra1.odt
+18	"ex_repair"  *Extra_1*       extra1.odt
+19	"ex_aburn"   *Extra_3*       extra1.odt
+20	"ex_flare"   *Extra_2*       extra1.odt
+21	"ex_invis"   *Extra_3*       extra1.odt
+22	"ex_x2"      *Extra_3*       extra1.odt
+23	"ex_x3"      *Extra_3*       extra1.odt
+24	"ex_laser2"  *Extra_2*       extra1.odt
+25	"ex_laser3"  *Extra_2*       extra1.odt
+26	"ex_invul"   *Extra_3*       extra1.odt
+
+
+#bitmaps
+
+1	108x108 cross.bdt
+2	100x100 radar.bdt
+3	8x8	mstar1.bdt
+4	8x8	mstar2.bdt
+5	12x12	mstar3.bdt
+6	8x8	mstar4.bdt
+7	88x88	bigplan1.bdt
+8	28x20	sclstr1.bdt
+9	24x18	sclstr2.bdt
+10	44x44	norplan1.bdt
+11	24x24	minplan1.bdt
+12	44x44	target.bdt
+
+13	48x48	exp1_01.bdt
+14	48x48	exp1_02.bdt
+15	48x48	exp1_03.bdt
+16	48x48	exp1_04.bdt
+17	48x48	exp1_05.bdt
+18	48x48	exp1_06.bdt
+19	48x48	exp1_07.bdt
+20	48x48	exp1_08.bdt
+21	48x48	exp1_09.bdt
+22	48x48	exp1_10.bdt
+23	48x48	exp1_11.bdt
+24	48x48	exp1_12.bdt
+
+25	100x92	nebula.bdt
+
+26	psclogo1.bdt
+27	psclogo2.bdt
+28	bluepr01.bdt
+29	bluepr02.bdt
+
+30	124x60	rocket1.bdt
+31	92x44	rocket2.bdt
+32	92x92	cross2.bdt
+33	92x92	cross3.bdt
+34	92x80	mine.bdt
+35	108x48	gun1.bdt
+36	124x60	gun2.bdt
+37	144x48	gun3.bdt
+38	480x40	viewlogo.bdt
+39	480x40	objslogo.bdt
+40	68x40	arrowl.bdt
+41	68x40	arrowr.bdt
+42	320x40	select.bdt
+
+43	sun.bdt
+44	lightn01.bdt
+45	lightn02.bdt
+46	firebal1.bdt
+47	firebal2.bdt
+48	shield01.bdt
+49	shield02.bdt
+50	pfumes01.bdt
+51	pfumes01.bdt
+52	pfumes01.bdt
+53	firebal2.bdt
+
+54	64x64	lfmask.raw
+55	64x64	lfmask.raw
+56	64x64	lfmask.raw
+57	64x64	lfmask.raw
+
+
+#charsets
+
+1			font2.pfg
+2	320 4x9 	font4.fnt
+3	320 8x8 	font5.fnt
+4	320 16x16	font7.fnt
+5			font6.pfg
+6			font8_1.pfg
+7			font8_2.pfg
+
+
+#palette
+
+game.pal
+menu.pal
+
+
+<end-of-file------------------------------------------------------------------->
+

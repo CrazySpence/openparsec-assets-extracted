@@ -1,0 +1,56 @@
+
+write loading menu buttons
+
+load texture button_r  file button_r.3df
+load texture back_off  file back_off.3df
+load texture back_on   file back_on.3df
+load texture conf_off  file conf_off.3df
+load texture conf_on   file conf_on.3df
+load texture conn_off  file conn_off.3df
+load texture conn_on   file conn_on.3df
+load texture cont_off  file cont_off.3df
+load texture cont_on   file cont_on.3df
+load texture cont_x    file cont_x.3df
+;load texture gfx_off   file gfx_off.3df
+;load texture gfx_on    file gfx_on.3df
+;load texture gfx_x     file gfx_x.3df
+load texture join_off  file join_off.3df
+load texture join_on   file join_on.3df
+;load texture net_off   file net_off.3df
+;load texture net_on    file net_on.3df
+;load texture net_x     file net_x.3df
+load texture opt_off   file opt_off.3df
+load texture opt_on    file opt_on.3df
+load texture pla_off   file pla_off.3df
+load texture pla_on    file pla_on.3df
+load texture quit_off  file quit_off.3df
+load texture quit_on   file quit_on.3df
+load texture scv_off   file scv_off.3df
+load texture scv_on    file scv_on.3df
+;load texture snd_off   file snd_off.3df
+;load texture snd_on    file snd_on.3df
+;load texture snd_x     file snd_x.3df
+load texture sta_off   file sta_off.3df
+load texture sta_on    file sta_on.3df
+load texture sta_x     file sta_x.3df
+
+load texture crea_off  file crea_off.3df
+load texture crea_on   file crea_on.3df
+load texture game_off  file game_off.3df
+load texture game_on   file game_on.3df
+load texture mod_off   file mod_off.3df
+load texture mod_on    file mod_on.3df
+load texture serv_off  file serv_off.3df
+load texture serv_on   file serv_on.3df
+load texture sett_off  file sett_off.3df
+load texture sett_on   file sett_on.3df
+load texture dcon_off  file dcon_off.3df
+load texture dcon_on   file dcon_on.3df
+
+load texture connected file connect.3df
+load texture mouse     file mouse.3df
+load texture loading   file loading.3df
+load texture precache.3df file precache.3df
+
+;eof
+

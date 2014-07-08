@@ -1,0 +1,23 @@
+
+write loading lightning particles
+
+.aux50 1
+
+load texture imp_001 file imp_001.3df
+load texture imp_003 file imp_003.3df
+load texture imp_005 file imp_005.3df
+load texture imp_007 file imp_007.3df
+load texture imp_009 file imp_009.3df
+load texture imp_011 file imp_011.3df
+load texture imp_013 file imp_013.3df
+load texture imp_015 file imp_015.3df
+load texture imp_017 file imp_017.3df
+load texture imp_019 file imp_019.3df
+load texture imp_021 file imp_021.3df
+load texture imp_023 file imp_023.3df
+load texture imp_025 file imp_025.3df
+load texture imp_027 file imp_027.3df
+load texture imp_029 file imp_029.3df
+
+;eof
+

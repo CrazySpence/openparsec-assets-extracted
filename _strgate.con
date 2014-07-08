@@ -1,0 +1,15 @@
+
+write loading stargate object
+
+; define the particle animation for the position lights in the stargate
+pdef sgateposlt base pl_f len 6 tab (frm (0 1 2 3 2 1) tl (60 60 60 60 60 60))
+
+load texture sg_int.3df  file sg_int.3df
+load texture sg_rtop.3df file sg_rtop.3df
+load texture sg_rfr.3df  file sg_rfr.3df
+load texture grau.3df    file grau.3df
+
+load object  stargate    file stargate.odt type stargate
+
+;eof
+

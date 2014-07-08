@@ -1,0 +1,7 @@
+
+write loading fonts
+
+load texfont impact file font1.tga height 40 format (texfmt_gr rgb565) spacing 1
+
+;eof
+

@@ -1,0 +1,90 @@
+
+;firebird
+
+propc ship1.spread.x1       0.0
+propc ship1.spread.y        0.0
+propc ship1.spread.z        0.0
+
+propc ship1.laser.x1       -0.75
+propc ship1.laser.x2       -0.4
+propc ship1.laser.x3        0.4
+propc ship1.laser.x4        0.75
+propc ship1.laser.y         1.18
+
+propc ship1.mine1.x         0.0
+propc ship1.mine1.y         0.0
+propc ship1.mine1.z         3.05
+
+
+;cormoran
+
+propc ship2.laser.x1       -0.3
+propc ship2.laser.x2       -0.1
+propc ship2.laser.x3        0.1
+propc ship2.laser.x4        0.3
+propc ship2.laser.y         5.0
+propc ship2.laser.z        62.0
+
+propc ship2.beam.x1         3.0
+propc ship2.beam.x4        40.0
+propc ship2.beam.y         -2.3
+propc ship2.beam.z          2.0
+
+propc ship2.missile1.x1     4.0
+propc ship2.missile1.x2    14.0
+propc ship2.missile1.x3    19.0
+propc ship2.missile1.x4     9.0
+propc ship2.missile1.y     -2.3
+propc ship2.missile1.z     15.0
+propc ship2.missile2.x1     4.0
+propc ship2.missile2.x2    14.0
+propc ship2.missile2.x3    19.0
+propc ship2.missile2.x4     9.0
+propc ship2.missile2.y     -2.3
+propc ship2.missile2.z     15.0
+
+propc ship2.mine1.x         0.0
+propc ship2.mine1.y         0.0
+propc ship2.mine1.z         3.2
+
+propc ship2.spread.x1       0.0
+propc ship2.spread.y        0.0
+propc ship2.spread.z        5.0
+
+
+;bluespire
+
+propc ship3.laser.x1       -5.8
+propc ship3.laser.x2       -5.6
+propc ship3.laser.x3        5.6
+propc ship3.laser.x4        5.8
+propc ship3.laser.y         1.18
+propc ship3.laser.z        57.0
+
+propc ship3.missile1.x1   -16.0
+propc ship3.missile1.x2   -16.0
+propc ship3.missile1.x3    16.0
+propc ship3.missile1.x4    16.0
+propc ship3.missile1.y      2.5
+propc ship3.missile2.x1   -16.0
+propc ship3.missile2.x2   -16.0
+propc ship3.missile2.x3    16.0
+propc ship3.missile2.x4    16.0
+propc ship3.missile2.y      2.5
+
+propc ship3.mine1.x         0.0
+propc ship3.mine1.y         0.0
+propc ship3.mine1.z         3.05
+
+propc ship3.spread.x1       0.0
+propc ship3.spread.y        0.0
+propc ship3.spread.z        7.0
+
+propc ship3.beam.x1        -4.3
+propc ship3.beam.x4         4.3
+propc ship3.beam.y         -1.3
+propc ship3.beam.z          7.0
+
+
+;eof
+

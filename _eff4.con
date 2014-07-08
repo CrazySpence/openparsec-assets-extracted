@@ -1,0 +1,21 @@
+
+write loading particle flare 04
+
+load texture eff40001 file eff4_001.3df
+;load texture eff40003 file eff4_003.3df
+;load texture eff40005 file eff4_005.3df
+;load texture eff40007 file eff4_007.3df
+;load texture eff40009 file eff4_009.3df
+;load texture eff40011 file eff4_011.3df
+;load texture eff40013 file eff4_013.3df
+;load texture eff40015 file eff4_015.3df
+;load texture eff40017 file eff4_017.3df
+;load texture eff40019 file eff4_019.3df
+;load texture eff40021 file eff4_021.3df
+;load texture eff40023 file eff4_023.3df
+;load texture eff40025 file eff4_025.3df
+;load texture eff40027 file eff4_027.3df
+;load texture eff40029 file eff4_029.3df
+
+;eof
+

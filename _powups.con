@@ -1,0 +1,434 @@
+
+write loading power-ups
+
+.aux37 1
+
+
+;-- EX_ENERGY --------------------------------------------------
+
+load texture lgd_wrp1.3df file lgd_wrp1.3df
+load texture lgd_wrp2.3df file lgd_wrp2.3df
+load texture lgd_wrp0.3df file lgd_wrp0.3df
+
+load texture lgd_el00 file lgd_el00.3df
+load texture lgd_el03 file lgd_el03.3df
+load texture lgd_el04 file lgd_el04.3df
+load texture lgd_el05 file lgd_el05.3df
+load texture lgd_el07 file lgd_el07.3df
+load texture lgd_el08 file lgd_el08.3df
+load texture lgd_el09 file lgd_el09.3df
+
+load object (ex_energy) file (lgdev_02.od2 lgdev_01.od2 lgdev.od2 lgdev_00.od2) lodmag (110 340 1200) lodmin (160 400 1300) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_energy).rotx 30
+propc (ex_energy).roty 20
+propc (ex_energy).rotz  0
+
+pdef    ex_energy_beam base lgd_el dig 2 len 7 tab (frm (0 3 4 5 7 8 9) t 30)
+colanim ex_energy_hull src (wave sine max 255 min 120 t 20) len 30
+
+shader.def ex_energy_hull shader (iter_texrgb  iter_overwrite   flag_nobackcull) colanim ex_energy_hull
+shader.def ex_energy_tube shader (iter_rgba    iter_alphablend  flag_nodepthwrite) color (10 50 200 50)
+shader.def ex_energy_beam shader (iter_texonly iter_specularadd flag_nodepthwrite flag_nobackcull) texanim ex_energy_beam
+
+shader.set class (ex_energy) lod  0 shader ex_energy_tube faceid (64-95)
+shader.set class (ex_energy) lod  0 shader ex_energy_tube faceid (96-127)
+shader.set class (ex_energy) lod -2 shader ex_energy_beam texture texinval
+shader.set class (ex_energy) lod -2 shader ex_energy_hull texture lgd_wrp1.3df
+shader.set class (ex_energy) lod -2 shader ex_energy_hull texture lgd_wrp2.3df
+shader.set class (ex_energy) lod  2 shader ex_energy_tube faceid (16-31)
+shader.set class (ex_energy) lod  1 shader ex_energy_tube faceid (32-63)
+
+
+;-- EX_DUMB ----------------------------------------------------
+
+;load texture rc01_04.3df file rc01_04.3df
+;load texture rc01_06.3df file rc01_06.3df
+;load texture rc01_07.3df file rc01_07.3df
+;load texture rc01a04.3df file rc01a04.3df
+;load texture rc01a06.3df file rc01a06.3df
+;load texture rc01a07.3df file rc01a07.3df
+;
+;load object (ex_dumb) file (rc01_00a.od2 rc01a00a.od2 rc01b00a.od2) lodmag (400 800) lodmin (450 900) flags (f_anims p_wedges w_normals w_lighted)
+;
+;propc (ex_dumb).rotx 30
+;propc (ex_dumb).roty 20
+;propc (ex_dumb).rotz  0
+;
+;colanim ex_dumb_hull src (wave sine max 220 min 150 mask gb t 20) len 30
+;
+;shader.def ex_dumb_core shader (iter_texonly iter_overwrite)
+;shader.def ex_dumb_hull shader (iter_texrgb  iter_alphablend flag_nobackcull flag_draw_last flag_back_first) colanim ex_dumb_hull color (255 0 0) colmode add
+;
+;shader.set class (ex_dumb) lod 0 shader ex_dumb_core texture r99012.3df
+;shader.set class (ex_dumb) lod 0 shader ex_dumb_hull texture rc01_04.3df
+;shader.set class (ex_dumb) lod 0 shader ex_dumb_hull texture rc01_06.3df
+;shader.set class (ex_dumb) lod 0 shader ex_dumb_hull texture rc01_07.3df
+;shader.set class (ex_dumb) lod 1 shader ex_dumb_hull texture rc01a04.3df
+;shader.set class (ex_dumb) lod 1 shader ex_dumb_hull texture rc01a06.3df
+;shader.set class (ex_dumb) lod 1 shader ex_dumb_hull texture rc01a07.3df
+;shader.set class (ex_dumb) lod 2 shader ex_dumb_hull texture rc01a04.3df
+;shader.set class (ex_dumb) lod 2 shader ex_dumb_hull texture rc01a06.3df
+;shader.set class (ex_dumb) lod 2 shader ex_dumb_hull texture rc01a07.3df
+
+load texture mpack_1.3df file mpack_1.3df
+load texture mpack_2.3df file mpack_2.3df
+load texture mpack_3.3df file mpack_3.3df
+
+load object (ex_dumb) file mpack.od2 flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_dumb).rotx 30
+propc (ex_dumb).roty 20
+propc (ex_dumb).rotz  0
+
+colanim ex_dumb_hull src (wave sine max 180 min 80 mask gb t 20) len 20
+
+shader.def ex_dumb_hull shader (iter_texrgb iter_overwrite) colanim ex_dumb_hull color (255 0 0) colmode add
+
+shader.set class (ex_dumb) shader ex_dumb_hull
+
+
+;-- EX_GUIDE ---------------------------------------------------
+
+;load texture rc02_06.3df file rc02_06.3df
+;load texture rc02_07.3df file rc02_07.3df
+;load texture rc02a04.3df file rc02a04.3df
+;load texture rc02a06.3df file rc02a06.3df
+;load texture rc02a07.3df file rc02a07.3df
+;
+;load object (ex_guide) file (rc02_00a.od2 rc02a00a.od2 rc02b00a.od2) lodmag (400 800) lodmin (450 900) flags (f_anims p_wedges w_normals w_lighted)
+;
+;propc (ex_guide).rotx 30
+;propc (ex_guide).roty 20
+;propc (ex_guide).rotz  0
+;
+;colanim ex_guide_hull src (wave sine max 220 min 150 mask rg t 20) len 30
+;
+;shader.def ex_guide_core shader (iter_texonly iter_overwrite)
+;shader.def ex_guide_hull shader (iter_texrgb  iter_alphablend flag_nobackcull flag_draw_last flag_back_first) colanim ex_guide_hull color (0 0 255) colmode add
+;
+;shader.set class (ex_guide) lod 0 shader ex_guide_core texture r99013.3df
+;shader.set class (ex_guide) lod 0 shader ex_guide_hull texture rc01_04.3df
+;shader.set class (ex_guide) lod 0 shader ex_guide_hull texture rc02_06.3df
+;shader.set class (ex_guide) lod 0 shader ex_guide_hull texture rc02_07.3df
+;shader.set class (ex_guide) lod 1 shader ex_guide_hull texture rc02a04.3df
+;shader.set class (ex_guide) lod 1 shader ex_guide_hull texture rc02a06.3df
+;shader.set class (ex_guide) lod 1 shader ex_guide_hull texture rc02a07.3df
+;shader.set class (ex_guide) lod 2 shader ex_guide_hull texture rc02a04.3df
+;shader.set class (ex_guide) lod 2 shader ex_guide_hull texture rc02a06.3df
+;shader.set class (ex_guide) lod 2 shader ex_guide_hull texture rc02a07.3df
+
+load object (ex_guide) file mpack.od2 flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_guide).rotx 30
+propc (ex_guide).roty 20
+propc (ex_guide).rotz  0
+
+colanim ex_guide_hull src (wave sine max 180 min 80 mask rgb t 20) len 20
+
+shader.def ex_guide_hull shader (iter_texrgb iter_overwrite) colanim ex_guide_hull color (0 0 255) colmode add
+
+shader.set class (ex_guide) shader ex_guide_hull
+
+
+;-- EX_SWARM ---------------------------------------------------
+
+load texture in01_00a.3df file in01_00a.3df
+load texture in02_00a.3df file in02_00a.3df
+
+load object (ex_flare) file (in01b00a.od2 in01c00a.od2 in01d00a.od2 in01e00a.od2) lodmag (60 200 900) lodmin (80 250 950) flags (f_anims v_anims)
+
+propc (ex_flare).rotx 30
+propc (ex_flare).roty 20
+propc (ex_flare).rotz  0
+
+colanim ex_swarm_hull src (wave sine max 255 min 120 t 20) len 40
+
+shader.def ex_swarm_core shader (iter_texrgb iter_specularadd flag_nodepthwrite) colanim ex_swarm_hull
+shader.def ex_swarm_hull shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) colanim ex_swarm_hull
+shader.def ex_swarm_lod2 shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull)
+shader.def ex_swarm_lod3 shader (iter_texrgb iter_specularadd flag_nodepthwrite)
+
+shader.set class (ex_flare) lod -1 shader ex_swarm_core texture in02_00a.3df
+shader.set class (ex_flare) lod -1 shader ex_swarm_hull texture in01_00a.3df
+shader.set class (ex_flare) lod  2 shader ex_swarm_lod2
+shader.set class (ex_flare) lod  3 shader ex_swarm_lod3
+
+
+;-- EX_HELIX ---------------------------------------------------
+
+load texture hc01_01a.3df file hc01_01a.3df
+load texture hc01_02a.3df file hc01_02a.3df
+load texture hc01_03a.3df file hc01_03a.3df
+
+load object (ex_helix) file (hc01_00a.od2 hc01a00a.od2 hc01b00a.od2 hc01c00a.od2 ) lodmag (60 200 800) lodmin (80 250 850) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_helix).rotx 30
+propc (ex_helix).roty 20
+propc (ex_helix).rotz  0
+
+colanim ex_helix_hull src (wave sine max 220 min 150 mask rg t 20) len 30
+
+shader.def ex_helix_hull shader (iter_texrgb) colanim ex_helix_hull color (0 0 255) colmode add
+
+shader.set class (ex_helix) lod -3 shader ex_helix_hull
+
+
+;-- EX_LIGHT ---------------------------------------------------
+
+load texture ld01_01a.3df file ld01_01a.3df
+load texture ld01_02a.3df file ld01_02a.3df
+load texture ld01_03a.3df file ld01_03a.3df
+
+load object (ex_light) file (ld01_00a.od2 ld01a00a.od2 ld01b00a.od2 ld01c00a.od2) lodmag (120 370 800) lodmin (150 400 850) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_light).rotx 18
+propc (ex_light).roty 24
+propc (ex_light).rotz  5
+
+colanim ex_light_hull src (wave sine max 220 min 120 mask g t 20) len 30
+
+shader.def ex_light_hull shader (iter_texrgb) colanim ex_light_hull color (255 0 255) colmode add
+
+shader.set class (ex_light) lod -3 shader ex_light_hull
+
+
+;-- EX_INVUL ---------------------------------------------------
+
+load object (ex_invul) file (in01b00a.od2 in01c00a.od2 in01d00a.od2 in01e00a.od2) lodmag (60 200 900) lodmin (80 250 950) flags (f_anims v_anims) type extra_3
+
+propc (ex_invul).rotx 25
+propc (ex_invul).roty 20
+propc (ex_invul).rotz  5
+
+colanim ex_invul_core src (wave sine max 255 min 100 mask g t 20) len 30
+colanim ex_invul_hull src (wave sine max 255 min 150 mask g t 30) len 80
+
+shader.def ex_invul_core shader (iter_texrgb iter_specularadd flag_nodepthwrite) colanim ex_invul_core
+shader.def ex_invul_hull shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) colanim ex_invul_hull
+shader.def ex_invul_lod2 shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) color (0 255 0)
+shader.def ex_invul_lod3 shader (iter_texrgb iter_specularadd flag_nodepthwrite) color (0 255 0)
+
+shader.set class (ex_invul) lod -1 shader ex_invul_core texture in02_00a.3df
+shader.set class (ex_invul) lod -1 shader ex_invul_hull texture in01_00a.3df
+shader.set class (ex_invul) lod  2 shader ex_invul_lod2
+shader.set class (ex_invul) lod  3 shader ex_invul_lod3
+
+
+;-- EX_REPAIR --------------------------------------------------
+
+;load object (ex_repair) file (in01b00a.od2 in01c00a.od2 in01d00a.od2 in01e00a.od2) lodmag (60 200 900) lodmin (80 250 950) flags (f_anims v_anims)
+;
+;propc (ex_repair).rotx 20
+;propc (ex_repair).roty 35
+;propc (ex_repair).rotz  0
+;
+;colanim ex_repair_core src (wave sine max 255 min 100 mask gb t 20) len 30
+;colanim ex_repair_hull src (wave sine max 255 min 150 mask gb t 30) len 80
+;
+;shader.def ex_repair_core shader (iter_texrgb iter_specularadd flag_nodepthwrite) colanim ex_repair_core
+;shader.def ex_repair_hull shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) colanim ex_repair_hull
+;shader.def ex_repair_lod2 shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) color (0 255 255)
+;shader.def ex_repair_lod3 shader (iter_texrgb iter_specularadd flag_nodepthwrite) color (0 255 255)
+;
+;shader.set class (ex_repair) lod -1 shader ex_repair_core texture in02_00a.3df
+;shader.set class (ex_repair) lod -1 shader ex_repair_hull texture in01_00a.3df
+;shader.set class (ex_repair) lod  2 shader ex_repair_lod2
+;shader.set class (ex_repair) lod  3 shader ex_repair_lod3
+
+load texture re01_01a.3df file re01_01a.3df
+
+load object (ex_repair) file (re01_00a.od2) flags (f_anims p_wedges w_normals w_lighted) maxfanims 2
+
+propc (ex_repair).rotx 30
+propc (ex_repair).roty 20
+propc (ex_repair).rotz  0
+
+colanim ex_repair_hull src (wave sine max 255 min 120 t 20) len 40
+colanim ex_repair_plas src (wave sine max 255 min  80 t 20 mask r) len 15
+
+shader.def ex_repair_hull shader (iter_texrgb iter_overwrite)                  colanim ex_repair_hull
+shader.def ex_repair_plas shader (iter_texrgb iter_specularadd flag_draw_last) colanim ex_repair_plas
+
+shader.set class (ex_repair) lod 0 shader ex_repair_hull
+shader.set class (ex_repair) lod 0 shader ex_repair_plas faceid (0-5)
+shader.set class (ex_repair) lod 0 shader ex_repair_plas faceid (6-11)
+
+
+;-- MINE_PROXY --------------------------------------------------
+
+load texture mi01_01a.3df file mi01_01a.3df
+
+load object (mine_proxy) file (mi01_00a.od2 mi01a00a.od2) lodmag 400 lodmin 450 flags (f_anims v_anims) maxfanims 3
+
+propc (mine_proxy).rotx 15
+propc (mine_proxy).roty  8
+propc (mine_proxy).rotz 24
+
+colanim mine_proxy_core src (wave ramp max 255 min 0  mask   b t 600) len 2
+colanim mine_proxy_hull src (wave sine max 255 min 20 mask rgb t  20) len 17
+
+shader.def mine_proxy_hull shader (iter_texrgba iter_alphablend flag_nobackcull flag_draw_last flag_back_first) colanim mine_proxy_hull color (0 0 0 255) colmode add
+shader.def mine_proxy_core shader (iter_texrgb  iter_overwrite) colanim mine_proxy_core color (255 255 0 0) colmode add
+shader.def mine_proxy_lod1 shader (iter_texrgb  iter_overwrite) colanim mine_proxy_hull color (0 0 0 255) colmode add
+
+shader.set class (mine_proxy) lod 0 shader mine_proxy_hull faceid (8-15)
+shader.set class (mine_proxy) lod 0 shader mine_proxy_core faceid (0-7)
+shader.set class (mine_proxy) lod 1 shader mine_proxy_lod1
+
+
+;-- EX_MINE -----------------------------------------------------
+
+load object (ex_mine) file mi01a00a.od2 flags (f_anims v_anims)
+
+propc (ex_mine).rotx 30
+propc (ex_mine).roty 20
+propc (ex_mine).rotz  0
+
+colanim ex_mine_hull src (wave sine max 255 min 20 mask r t 20) len 30
+
+shader.def ex_mine_hull shader (iter_texrgb iter_overwrite) colanim ex_mine_hull color (50 150 255) colmode add
+
+shader.set class (ex_mine) shader ex_mine_hull
+
+
+;-- EX_ABURN ----------------------------------------------------
+
+load object (ex_aburn) file (in01b00a.od2 in01c00a.od2 in01d00a.od2 in01e00a.od2) lodmag (60 200 900) lodmin (80 250 950) flags (f_anims v_anims)
+
+propc (ex_aburn).rotx 25
+propc (ex_aburn).roty 20
+propc (ex_aburn).rotz  5
+
+colanim ex_aburn_core src (wave sine max 255 min 100 mask rg t 20) len 30
+colanim ex_aburn_hull src (wave sine max 255 min 150 mask rg t 30) len 80
+
+shader.def ex_aburn_core shader (iter_texrgb iter_specularadd flag_nodepthwrite) colanim ex_aburn_core
+shader.def ex_aburn_hull shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) colanim ex_aburn_hull
+shader.def ex_aburn_lod2 shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) color (255 255 0)
+shader.def ex_aburn_lod3 shader (iter_texrgb iter_specularadd flag_nodepthwrite) color (255 255 0)
+
+shader.set class (ex_aburn) lod -1 shader ex_aburn_core texture in02_00a.3df
+shader.set class (ex_aburn) lod -1 shader ex_aburn_hull texture in01_00a.3df
+shader.set class (ex_aburn) lod  2 shader ex_aburn_lod2
+shader.set class (ex_aburn) lod  3 shader ex_aburn_lod3
+
+
+;-- EX_LASER2 ---------------------------------------------------
+
+load texture lc03_01a.3df file lc03_01a.3df
+
+load object (ex_laser2) type extra_3 file (lc03_00a.od2 lc03a00a.od2 lc03b00a.od2) lodmag (400 800) lodmin (450 900) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_laser2).rotx 25
+propc (ex_laser2).roty 20
+propc (ex_laser2).rotz  5
+
+colanim ex_laser2 src (wave sine max 255 min 160 t 20) len 30
+
+shader.def ex_laser2 shader (iter_texrgb iter_overwrite) colanim ex_laser2
+
+shader.set class (ex_laser2) lod -2 shader ex_laser2
+
+
+;-- EX_LASER3 ---------------------------------------------------
+
+load texture lc02_01a.3df file lc02_01a.3df
+
+load object (ex_laser3) type extra_3 file (lc02_00a.od2 lc02a00a.od2 lc02b00a.od2) lodmag (400 800) lodmin (450 900) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_laser3).rotx 25
+propc (ex_laser3).roty 20
+propc (ex_laser3).rotz  5
+
+colanim ex_laser3 src (wave sine max 255 min 160 t 20) len 30
+
+shader.def ex_laser3 shader (iter_texrgb iter_overwrite) colanim ex_laser3
+
+shader.set class (ex_laser3) lod -2 shader ex_laser3
+
+
+;-- EX_PHOTON --------------------------------------------------
+
+load texture pc01_01a.3df file pc01_01a.3df
+load texture pc01_02a.3df file pc01_02a.3df
+load texture pc01_03a.3df file pc01_03a.3df
+load texture pc01_04a.3df file pc01_04a.3df
+
+load object (ex_x2) type extra_3 file (pc01_00a.od2 pc01a00a.od2 pc01b00a.od2 pc01e00a.od2) lodmag (60 200 800) lodmin (80 250 850) flags (f_anims p_wedges w_normals w_lighted)
+
+propc (ex_x2).rotx 30
+propc (ex_x2).roty 20
+propc (ex_x2).rotz  0
+
+colanim ex_photon_hull src (wave sine max 220 min 120 mask rb t 20) len 30
+
+shader.def ex_photon_hull shader (iter_texrgb) colanim ex_photon_hull color (0 240 0) colmode add
+shader.def ex_photon_tele shader (iter_texrgb iter_alphablend flag_nobackcull flag_draw_last) colanim ex_photon_hull color (0 240 0) colmode add
+
+shader.set class (ex_x2) lod -3 shader ex_photon_hull
+shader.set class (ex_x2) lod -3 shader ex_photon_tele texture pc01_01a.3df
+
+
+;-- EX_DECOY ----------------------------------------------------
+
+load object (ex_x3) file (in01b00a.od2 in01c00a.od2 in01d00a.od2 in01e00a.od2) lodmag (60 200 900) lodmin (80 250 950) flags (f_anims v_anims) type extra_3
+
+propc (ex_x3).rotx 25
+propc (ex_x3).roty 20
+propc (ex_x3).rotz  5
+
+colanim ex_decoy_core src (wave sine max 255 min 100 mask r t 20) len 30
+colanim ex_decoy_hull src (wave sine max 255 min 150 mask r t 30) len 80
+
+shader.def ex_decoy_core shader (iter_texrgb iter_specularadd flag_nodepthwrite) colanim ex_decoy_core
+shader.def ex_decoy_hull shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) colanim ex_decoy_hull
+shader.def ex_decoy_lod2 shader (iter_texrgb iter_specularadd flag_nodepthwrite flag_nobackcull) color (255 0 0)
+shader.def ex_decoy_lod3 shader (iter_texrgb iter_specularadd flag_nodepthwrite) color (255 0 0)
+
+shader.set class (ex_x3) lod -1 shader ex_decoy_core texture in02_00a.3df
+shader.set class (ex_x3) lod -1 shader ex_decoy_hull texture in01_00a.3df
+shader.set class (ex_x3) lod  2 shader ex_decoy_lod2
+shader.set class (ex_x3) lod  3 shader ex_decoy_lod3
+
+
+;-- EX_EMP ---------------------------------------------------
+
+load texture em01_01a.3df file em01_01a.3df
+
+load object (ex_emp) file (em01_00a.od2) flags (f_anims p_wedges w_normals w_lighted) type extra_3
+
+propc (ex_emp).rotx 30
+propc (ex_emp).roty 20
+propc (ex_emp).rotz  0
+
+colanim ex_emp_hull src (wave sine max 240 min 50 mask rb t 20) src2 (wave ramp max 255 min 0 mask b t 20) len 60 len2 10 mode add
+
+shader.def ex_emp_hull shader (iter_texrgb) colanim ex_emp_hull color (0 255 0) colmode add
+
+shader.set class (ex_emp) shader ex_emp_hull
+
+extraclass class (ex_emp)
+
+
+;-- EX_EMP2 --------------------------------------------------
+
+load object (ex_emp2) file (em01_00a.od2) flags (f_anims p_wedges w_normals w_lighted) type extra_3
+
+propc (ex_emp2).rotx 30
+propc (ex_emp2).roty 20
+propc (ex_emp2).rotz  0
+
+colanim ex_emp2_hull src (wave sine max 240 min 50 mask rb t 20) src2 (wave ramp max 255 min 0 mask b t 20) len 60 len2 10 mode add
+
+shader.def ex_emp2_hull shader (iter_texrgb) colanim ex_emp2_hull color (255 0 0) colmode add
+
+shader.set class (ex_emp2) shader ex_emp2_hull
+
+extraclass class (ex_emp2)
+
+
+;----------
+.aux37 0
+
+;eof
